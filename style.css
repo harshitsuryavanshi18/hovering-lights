@@ -1,30 +1,36 @@
-body{
+body {
+    background-color: #242424;
     display: flex;
-    background-color: #1f1f1f;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     overflow: hidden;
     margin: 0;
     flex-direction: column;
-}
-
-.container{
+  }
+  
+  /* .heading{
+      color: white;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+  }
+   */
+  .container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 400px;
-}
-
-.box{
+  }
+  
+  .box {
     background-color: #4f4f4f;
     height: 16px;
     width: 16px;
     transition: 1.5s ease;
     margin: 2px;
-}
-
-.box:hover{
-    transform: 0ms;
-}
+  }
+  
+  .box:hover {
+    transition: 0s;
+  }

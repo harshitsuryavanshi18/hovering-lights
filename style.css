@@ -21,7 +21,7 @@ body{
     background-color: #4f4f4f;
     height: 16px;
     width: 16px;
-    transition: 500ms ease;
+    transition: 1.5s ease;
     margin: 2px;
 }
 

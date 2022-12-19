@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    background-color: #1f1f1f;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.box{
+    background-color: #4f4f4f;
+    height: 16px;
+    width: 16px;
+    transition: 500ms ease;
+    margin: 2px;
+}
+
+.box:hover{
+    transform: 0ms;
+}
